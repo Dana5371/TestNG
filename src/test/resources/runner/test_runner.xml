@@ -10,9 +10,11 @@
 <!--    </groups>-->
 
     <test name="loginTest" >
+        <parameter name="browser" value="firefox">
         <classes>
             <class name="com.automation.testcases.LoginTest" />
         </classes>
+        </parameter>
     </test>
 
     <test name="OtherTest">

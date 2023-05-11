@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e6f4f8-647b-436d-8bd2-e8f59ffd769e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/testcases/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/testcases/CartPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/testcases/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/testcases/SearchFunctionalityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/runner/group.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/runner/test_runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ebay/LoginFeatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/testcases/DataDrivenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/testcases/SoftAssertHardAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/testcases/ExamplePriorityAndDependencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/testcases/ExamplePriorityAndDependencyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/testcases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/runner/test_runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner/test_runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,86 +55,179 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.CartPageTest.verifyUserCanAddProductToCart">
-    <configuration name="CartPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.testcases.CartPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CartPageTest.verifyUserCanAddProductToCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.testcases.CartPageTest" />
-      <option name="METHOD_NAME" value="verifyUserCanAddProductToCart" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/idea/TestNG/src/test/resources/runner/group.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner/group.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.DataDrivenTest.verifyLoginUnsuccessfulWithInvalidCredentials">
     <configuration name="D:/idea/TestNG/src/test/resources/runner/test_runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner/test_runner.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataDrivenTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.automation.testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.automation.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.testcases.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.testcases.DataDrivenTest" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DataDrivenTest.verifyLoginUnsuccessfulWithInvalidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.automation.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.testcases.DataDrivenTest" />
+      <option name="METHOD_NAME" value="verifyLoginUnsuccessfulWithInvalidCredentials" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftAssertHardAssert.testHardAssert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.automation.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.testcases.SoftAssertHardAssert" />
+      <option name="METHOD_NAME" value="testHardAssert" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftAssertHardAssert.testSoftAssert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.automation.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.testcases.SoftAssertHardAssert" />
+      <option name="METHOD_NAME" value="testSoftAssert" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.D:/idea/TestNG/src/test/resources/runner/test_runner.xml" />
+      <item itemvalue="TestNG.DataDrivenTest" />
+      <item itemvalue="TestNG.DataDrivenTest.verifyLoginUnsuccessfulWithInvalidCredentials" />
+      <item itemvalue="TestNG.SoftAssertHardAssert.testHardAssert" />
+      <item itemvalue="TestNG.SoftAssertHardAssert.testSoftAssert" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CartPageTest.verifyUserCanAddProductToCart" />
+        <item itemvalue="TestNG.DataDrivenTest.verifyLoginUnsuccessfulWithInvalidCredentials" />
+        <item itemvalue="TestNG.DataDrivenTest" />
         <item itemvalue="TestNG.D:/idea/TestNG/src/test/resources/runner/test_runner.xml" />
-        <item itemvalue="TestNG.D:/idea/TestNG/src/test/resources/runner/group.xml" />
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.CartPageTest" />
+        <item itemvalue="TestNG.SoftAssertHardAssert.testSoftAssert" />
+        <item itemvalue="TestNG.SoftAssertHardAssert.testHardAssert" />
       </list>
     </recent_temporary>
   </component>
